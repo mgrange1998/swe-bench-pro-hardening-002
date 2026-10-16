@@ -3,6 +3,7 @@ version = "1.0"
 [task]
 name = "mgrange1998/hardening-002-task-02"
 format = "swe_bench_single_turn"
+track_assignment = "llm-research"
 workstream = "swe_public_repo"
 description = "Derisk task 2 for repogen hardening evolution loop"
 authors = [{ name = "Matthew Grange", email = "mgrange@meta.com" }]
@@ -15,8 +16,8 @@ difficulty = "easy"
 category = "bugfix"
 languages = ["python"]
 reward_type = "binary"
-category_subdomain = "python"
-category_usecase = "bugfix"
+category_subdomain = "algorithms_and_data_structures"
+category_usecase = "logic_errors"
 tags = ["semi-synthetic-evolution", "generator:repogen-hardening-6000", "repogen-hardening-6000"]
 
 [synthetic_pipeline_metadata]
