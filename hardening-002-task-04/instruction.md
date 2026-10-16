@@ -1,0 +1,1 @@
+Fix `add(a, b)` in `/app/calc.py` so it returns the sum instead of the difference. Task hardening-002-task-04 (derisk shard 002).
